@@ -8,9 +8,7 @@ $if(author)$
 }
 $endif$
 \begin{letter}{
-$if(invoice)$\color{gray}{\large \bfseries{BILL TO}}\\ ~ \\$endif$
 $for(address)$$address$$sep$\\$endfor$
-$if(invoice)$\\ ~ \\\bfseries{Invoice No: $invoice$$endif$}
 $if(subject)$\\ ~ \\\bfseries{Subject: $subject$$endif$}}
 $if(opening)$
 \opening{$opening$}
