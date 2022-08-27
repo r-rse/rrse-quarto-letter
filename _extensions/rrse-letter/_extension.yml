@@ -1,6 +1,6 @@
-title: Letter Format Template
-author: Mickaël Canouil
-version: 0.1.0
+title: r-rse Letter Format Template
+author: Anna Krystalli
+version: 0.0.1
 contributes:
   formats:
     common:
@@ -14,6 +14,9 @@ contributes:
         - "left=1in"
         - "right=1in"
       colorlinks: true
+      mainfont: Work Sans
+      include-in-header:
+        - "partials/packages.tex"
       template-partials:
         - "partials/before-body.tex"
         - "partials/after-body.tex"

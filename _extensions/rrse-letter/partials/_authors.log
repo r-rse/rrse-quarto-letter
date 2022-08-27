@@ -1,0 +1,60 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.26)  26 AUG 2022 16:41
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**_authors.tex
+(./_authors.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-08-23>
+! Undefined control sequence.
+l.2 \includegraphics
+                    {$fromlogo$}\\$for(it.affiliations/first)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \includegraphics{$
+                      fromlogo$}\\$for(it.affiliations/first)$
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+! Undefined control sequence.
+<recently read> \color 
+                       
+l.3 \bfseries{$it.name$}\\\color
+                                {gray}$it.department$\\$it.address$ $it.city...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> _authors.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 22 strings out of 479489
+ 445 string characters out of 5874227
+ 295816 words of memory out of 5000000
+ 18816 multiletter control sequences out of 15000+600000
+ 469567 words of font info for 29 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 18i,1n,12p,208b,61s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

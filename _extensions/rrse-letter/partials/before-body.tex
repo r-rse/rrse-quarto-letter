@@ -1,0 +1,18 @@
+$if(author)$
+\fancypagestyle{empty}{
+\includegraphics[height=10.0mm, keepaspectratio=true]{$fromlogo$}
+\\\color{gray}Research Software Engineering Services in R}
+
+\signature{$author$}
+\address{${ by-author:_authors.tex() }
+}
+$endif$
+\begin{letter}{
+$if(invoice)$\color{gray}{\large \bfseries{BILL TO}}\\ ~ \\$endif$
+$for(address)$$address$$sep$\\$endfor$
+$if(invoice)$\\ ~ \\\bfseries{Invoice No: $invoice$$endif$}
+$if(subject)$\\ ~ \\\bfseries{Subject: $subject$$endif$}}
+$if(opening)$
+\opening{$opening$}
+$endif$
+
